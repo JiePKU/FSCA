@@ -38,7 +38,6 @@ class CustomImageDataset(Dataset):
         feature_name = self.features[idx]
         feature_path = os.path.join(self.feature_dir, feature_name)
         
-        # 加载图像
         # print(feature_path)
 
         feature_dict = torch.load(feature_path, map_location='cuda')
