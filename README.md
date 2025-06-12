@@ -1,5 +1,5 @@
 
-# Are Your Images Used for Training? Auditing Data Provenance in Real-world Text-to-image Diffusion Models
+# Auditing Data Provenance in Real-world Text-to-Image Diffusion Models for Privacy and Copyright Protection
 
 
 ## Quick Start
