@@ -1,0 +1,2047 @@
+nohup: ignoring input
+mdkir output dir
+instantiate adversary Adversary(
+  (image_stream): Sequential(
+    (0): Linear(in_features=64, out_features=256, bias=True)
+    (1): Tanh()
+  )
+  (text_stream): Sequential(
+    (0): Linear(in_features=64, out_features=256, bias=True)
+    (1): Tanh()
+  )
+  (fusion_stream): Sequential(
+    (0): Linear(in_features=512, out_features=256, bias=True)
+    (1): Tanh()
+    (2): Linear(in_features=256, out_features=128, bias=True)
+    (3): Tanh()
+    (4): Linear(in_features=128, out_features=1, bias=True)
+  )
+)
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.819s | Batch: 5.774s | | Loss: 0.7010 | top1:  0.5000 
+(10/20) Data: 0.447s | Batch: 0.540s | | Loss: 0.7769 | top1:  0.5282 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[482 518]
+ [227 773]]
+
+MIA Evaluation: MIA accuracy: 1255/2000 (62.750%) MIA Gain: 4.114% MIA Precision:773/1291 (59.876%) MIA Recall:773/1000 (77.300%) MIA F1: 67.481% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.636 0.5249369207620656 0.5540000000000042 |    AUC Score: 0.668218 |   tpr_at_1_percent_fpr: 0.017 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.561s | Batch: 4.568s | | Loss: 0.6647 | top1:  0.6000 
+(10/20) Data: 0.441s | Batch: 0.448s | | Loss: 0.6613 | top1:  0.6209 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[492 508]
+ [201 799]]
+
+MIA Evaluation: MIA accuracy: 1291/2000 (64.550%) MIA Gain: 3.363% MIA Precision:799/1307 (61.132%) MIA Recall:799/1000 (79.900%) MIA F1: 69.267% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6475 0.5013347961902519 0.6219999999999833 |    AUC Score: 0.6928050000000001 |   tpr_at_1_percent_fpr: 0.011 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.721s | Batch: 4.727s | | Loss: 0.6322 | top1:  0.6700 
+(10/20) Data: 0.449s | Batch: 0.456s | | Loss: 0.6546 | top1:  0.6318 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[486 514]
+ [192 808]]
+
+MIA Evaluation: MIA accuracy: 1294/2000 (64.700%) MIA Gain: 4.642% MIA Precision:808/1322 (61.120%) MIA Recall:808/1000 (80.800%) MIA F1: 69.595% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.65 0.5263554735183804 0.6835000000000135 |    AUC Score: 0.7000519999999999 |   tpr_at_1_percent_fpr: 0.014 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.543s | Batch: 4.549s | | Loss: 0.6206 | top1:  0.6500 
+(10/20) Data: 0.432s | Batch: 0.439s | | Loss: 0.6460 | top1:  0.6245 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[481 519]
+ [188 812]]
+
+MIA Evaluation: MIA accuracy: 1293/2000 (64.650%) MIA Gain: 5.078% MIA Precision:812/1331 (61.007%) MIA Recall:812/1000 (81.200%) MIA F1: 69.670% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.659 0.5346706887483637 0.6835000000000059 |    AUC Score: 0.7090190000000001 |   tpr_at_1_percent_fpr: 0.038 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.477s | Batch: 4.484s | | Loss: 0.6062 | top1:  0.7100 
+(10/20) Data: 0.437s | Batch: 0.444s | | Loss: 0.6475 | top1:  0.6273 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[657 343]
+ [344 656]]
+
+MIA Evaluation: MIA accuracy: 1313/2000 (65.650%) MIA Gain: 5.239% MIA Precision:656/999 (65.666%) MIA Recall:656/1000 (65.600%) MIA F1: 65.633% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6655 0.469157640993592 0.6194999999999952 |    AUC Score: 0.718593 |   tpr_at_1_percent_fpr: 0.036 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.072s | Batch: 4.081s | | Loss: 0.6214 | top1:  0.6100 
+(10/20) Data: 0.399s | Batch: 0.407s | | Loss: 0.6436 | top1:  0.6227 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[647 353]
+ [334 666]]
+
+MIA Evaluation: MIA accuracy: 1313/2000 (65.650%) MIA Gain: 6.304% MIA Precision:666/1019 (65.358%) MIA Recall:666/1000 (66.600%) MIA F1: 65.973% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6665 0.46792806684970856 0.569 |    AUC Score: 0.7202864999999999 |   tpr_at_1_percent_fpr: 0.028 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.686s | Batch: 4.693s | | Loss: 0.6661 | top1:  0.5700 
+(10/20) Data: 0.443s | Batch: 0.451s | | Loss: 0.6461 | top1:  0.6345 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[537 463]
+ [211 789]]
+
+MIA Evaluation: MIA accuracy: 1326/2000 (66.300%) MIA Gain: 6.998% MIA Precision:789/1252 (63.019%) MIA Recall:789/1000 (78.900%) MIA F1: 70.071% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6695 0.5408253962397565 0.6119999999999987 |    AUC Score: 0.721137 |   tpr_at_1_percent_fpr: 0.029 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.657s | Batch: 4.664s | | Loss: 0.6188 | top1:  0.6600 
+(10/20) Data: 0.445s | Batch: 0.452s | | Loss: 0.6428 | top1:  0.6255 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[513 487]
+ [186 814]]
+
+MIA Evaluation: MIA accuracy: 1327/2000 (66.350%) MIA Gain: 6.520% MIA Precision:814/1301 (62.567%) MIA Recall:814/1000 (81.400%) MIA F1: 70.752% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6705 0.535914404839275 0.6029999999999972 |    AUC Score: 0.7290760000000001 |   tpr_at_1_percent_fpr: 0.055 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 6.900s | Batch: 6.908s | | Loss: 0.6561 | top1:  0.6200 
+(10/20) Data: 0.648s | Batch: 0.655s | | Loss: 0.6319 | top1:  0.6473 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[489 511]
+ [173 827]]
+
+MIA Evaluation: MIA accuracy: 1316/2000 (65.800%) MIA Gain: 6.686% MIA Precision:827/1338 (61.809%) MIA Recall:827/1000 (82.700%) MIA F1: 70.744% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6715 0.562016646862026 0.6149999999999952 |    AUC Score: 0.730782 |   tpr_at_1_percent_fpr: 0.072 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.259s | Batch: 4.267s | | Loss: 0.6352 | top1:  0.6000 
+(10/20) Data: 0.413s | Batch: 0.421s | | Loss: 0.6320 | top1:  0.6327 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[805 195]
+ [499 501]]
+
+MIA Evaluation: MIA accuracy: 1306/2000 (65.300%) MIA Gain: 6.423% MIA Precision:501/696 (71.983%) MIA Recall:501/1000 (50.100%) MIA F1: 59.080% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.67 0.39053851389885247 0.45300000000000384 |    AUC Score: 0.733616 |   tpr_at_1_percent_fpr: 0.032 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.412s | Batch: 4.420s | | Loss: 0.6624 | top1:  0.6600 
+(10/20) Data: 0.439s | Batch: 0.446s | | Loss: 0.6482 | top1:  0.6264 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[631 369]
+ [298 702]]
+
+MIA Evaluation: MIA accuracy: 1333/2000 (66.650%) MIA Gain: 6.573% MIA Precision:702/1071 (65.546%) MIA Recall:702/1000 (70.200%) MIA F1: 67.793% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6705 0.48163958352804287 0.5530000000000014 |    AUC Score: 0.7333240000000001 |   tpr_at_1_percent_fpr: 0.054 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.294s | Batch: 4.302s | | Loss: 0.6079 | top1:  0.6800 
+(10/20) Data: 0.422s | Batch: 0.430s | | Loss: 0.6420 | top1:  0.6436 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[651 349]
+ [321 679]]
+
+MIA Evaluation: MIA accuracy: 1330/2000 (66.500%) MIA Gain: 7.595% MIA Precision:679/1028 (66.051%) MIA Recall:679/1000 (67.900%) MIA F1: 66.963% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6725 0.44915933361649474 0.4984999999999995 |    AUC Score: 0.7317020000000001 |   tpr_at_1_percent_fpr: 0.042 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.259s | Batch: 4.267s | | Loss: 0.5765 | top1:  0.7000 
+(10/20) Data: 0.437s | Batch: 0.444s | | Loss: 0.6267 | top1:  0.6473 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[682 318]
+ [350 650]]
+
+MIA Evaluation: MIA accuracy: 1332/2000 (66.600%) MIA Gain: 7.802% MIA Precision:650/968 (67.149%) MIA Recall:650/1000 (65.000%) MIA F1: 66.057% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.672 0.4299166887700549 0.473499999999999 |    AUC Score: 0.734723 |   tpr_at_1_percent_fpr: 0.038 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.262s | Batch: 4.270s | | Loss: 0.5931 | top1:  0.6900 
+(10/20) Data: 0.422s | Batch: 0.430s | | Loss: 0.6161 | top1:  0.6573 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[385 615]
+ [115 885]]
+
+MIA Evaluation: MIA accuracy: 1270/2000 (63.500%) MIA Gain: 6.109% MIA Precision:885/1500 (59.000%) MIA Recall:885/1000 (88.500%) MIA F1: 70.800% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6695 0.5995125414133136 0.6520000000000082 |    AUC Score: 0.7385470000000001 |   tpr_at_1_percent_fpr: 0.139 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.112s | Batch: 4.119s | | Loss: 0.5846 | top1:  0.6700 
+(10/20) Data: 0.429s | Batch: 0.436s | | Loss: 0.6362 | top1:  0.6182 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[493 507]
+ [175 825]]
+
+MIA Evaluation: MIA accuracy: 1318/2000 (65.900%) MIA Gain: 6.027% MIA Precision:825/1332 (61.937%) MIA Recall:825/1000 (82.500%) MIA F1: 70.755% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.669 0.546747570753098 0.6410000000000007 |    AUC Score: 0.735782 |   tpr_at_1_percent_fpr: 0.16 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.120s | Batch: 4.129s | | Loss: 0.6455 | top1:  0.6200 
+(10/20) Data: 0.430s | Batch: 0.437s | | Loss: 0.6363 | top1:  0.6409 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[555 445]
+ [223 777]]
+
+MIA Evaluation: MIA accuracy: 1332/2000 (66.600%) MIA Gain: 7.107% MIA Precision:777/1222 (63.584%) MIA Recall:777/1000 (77.700%) MIA F1: 69.937% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.674 0.5196407367587126 0.5840000000000047 |    AUC Score: 0.7373445 |   tpr_at_1_percent_fpr: 0.107 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 7.825s | Batch: 7.833s | | Loss: 0.5996 | top1:  0.6700 
+(10/20) Data: 0.722s | Batch: 0.730s | | Loss: 0.6285 | top1:  0.6509 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[527 473]
+ [195 805]]
+
+MIA Evaluation: MIA accuracy: 1332/2000 (66.600%) MIA Gain: 7.590% MIA Precision:805/1278 (62.989%) MIA Recall:805/1000 (80.500%) MIA F1: 70.676% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6765 0.5489404962956825 0.5964999999999901 |    AUC Score: 0.739592 |   tpr_at_1_percent_fpr: 0.142 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.557s | Batch: 4.565s | | Loss: 0.6477 | top1:  0.6200 
+(10/20) Data: 0.447s | Batch: 0.454s | | Loss: 0.6128 | top1:  0.6418 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[564 436]
+ [224 776]]
+
+MIA Evaluation: MIA accuracy: 1340/2000 (67.000%) MIA Gain: 7.623% MIA Precision:776/1212 (64.026%) MIA Recall:776/1000 (77.600%) MIA F1: 70.163% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6775 0.510667874634266 0.5530000000000002 |    AUC Score: 0.745148 |   tpr_at_1_percent_fpr: 0.091 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.327s | Batch: 4.334s | | Loss: 0.6550 | top1:  0.6500 
+(10/20) Data: 0.415s | Batch: 0.422s | | Loss: 0.6330 | top1:  0.6382 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[606 394]
+ [276 724]]
+
+MIA Evaluation: MIA accuracy: 1330/2000 (66.500%) MIA Gain: 7.857% MIA Precision:724/1118 (64.758%) MIA Recall:724/1000 (72.400%) MIA F1: 68.366% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6705 0.5093612633347532 0.5465000000000025 |    AUC Score: 0.735586 |   tpr_at_1_percent_fpr: 0.07 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.237s | Batch: 4.245s | | Loss: 0.6364 | top1:  0.6300 
+(10/20) Data: 0.416s | Batch: 0.424s | | Loss: 0.6307 | top1:  0.6427 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[718 282]
+ [395 605]]
+
+MIA Evaluation: MIA accuracy: 1323/2000 (66.150%) MIA Gain: 6.870% MIA Precision:605/887 (68.207%) MIA Recall:605/1000 (60.500%) MIA F1: 64.123% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.671 0.3871839005053063 0.4130000000000025 |    AUC Score: 0.7322310000000001 |   tpr_at_1_percent_fpr: 0.033 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.030s | Batch: 4.037s | | Loss: 0.6484 | top1:  0.6000 
+(10/20) Data: 0.396s | Batch: 0.405s | | Loss: 0.6233 | top1:  0.6373 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[599 401]
+ [258 742]]
+
+MIA Evaluation: MIA accuracy: 1341/2000 (67.050%) MIA Gain: 7.674% MIA Precision:742/1143 (64.917%) MIA Recall:742/1000 (74.200%) MIA F1: 69.249% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6725 0.49698377969860513 0.5294999999999935 |    AUC Score: 0.7365649999999999 |   tpr_at_1_percent_fpr: 0.134 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 6.238s | Batch: 6.246s | | Loss: 0.6233 | top1:  0.6200 
+(10/20) Data: 0.607s | Batch: 0.614s | | Loss: 0.6134 | top1:  0.6518 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[524 476]
+ [202 798]]
+
+MIA Evaluation: MIA accuracy: 1322/2000 (66.100%) MIA Gain: 6.962% MIA Precision:798/1274 (62.637%) MIA Recall:798/1000 (79.800%) MIA F1: 70.185% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.674 0.5520704061984938 0.5929999999999899 |    AUC Score: 0.74131 |   tpr_at_1_percent_fpr: 0.157 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.686s | Batch: 4.694s | | Loss: 0.6203 | top1:  0.6600 
+(10/20) Data: 0.447s | Batch: 0.455s | | Loss: 0.6200 | top1:  0.6427 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[602 398]
+ [255 745]]
+
+MIA Evaluation: MIA accuracy: 1347/2000 (67.350%) MIA Gain: 8.363% MIA Precision:745/1143 (65.179%) MIA Recall:745/1000 (74.500%) MIA F1: 69.529% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.677 0.496232778489587 0.5169999999999968 |    AUC Score: 0.7395809999999999 |   tpr_at_1_percent_fpr: 0.149 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.609s | Batch: 4.616s | | Loss: 0.6103 | top1:  0.6200 
+(10/20) Data: 0.434s | Batch: 0.441s | | Loss: 0.6225 | top1:  0.6391 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[592 408]
+ [245 755]]
+
+MIA Evaluation: MIA accuracy: 1347/2000 (67.350%) MIA Gain: 7.636% MIA Precision:755/1163 (64.918%) MIA Recall:755/1000 (75.500%) MIA F1: 69.810% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6765 0.5106031128168066 0.5479999999999948 |    AUC Score: 0.746676 |   tpr_at_1_percent_fpr: 0.145 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 6.994s | Batch: 7.006s | | Loss: 0.5536 | top1:  0.7000 
+(10/20) Data: 0.670s | Batch: 0.678s | | Loss: 0.6227 | top1:  0.6509 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[722 278]
+ [373 627]]
+
+MIA Evaluation: MIA accuracy: 1349/2000 (67.450%) MIA Gain: 6.434% MIA Precision:627/905 (69.282%) MIA Recall:627/1000 (62.700%) MIA F1: 65.827% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.677 0.4961810882389478 0.5424999999999903 |    AUC Score: 0.746974 |   tpr_at_1_percent_fpr: 0.139 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 3.877s | Batch: 3.885s | | Loss: 0.6357 | top1:  0.6700 
+(10/20) Data: 0.383s | Batch: 0.391s | | Loss: 0.6245 | top1:  0.6400 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[615 385]
+ [300 700]]
+
+MIA Evaluation: MIA accuracy: 1315/2000 (65.750%) MIA Gain: 7.305% MIA Precision:700/1085 (64.516%) MIA Recall:700/1000 (70.000%) MIA F1: 67.146% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.667 0.5102869368195464 0.5394999999999909 |    AUC Score: 0.734696 |   tpr_at_1_percent_fpr: 0.164 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.688s | Batch: 4.696s | | Loss: 0.6624 | top1:  0.6000 
+(10/20) Data: 0.470s | Batch: 0.477s | | Loss: 0.6257 | top1:  0.6327 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[613 387]
+ [266 734]]
+
+MIA Evaluation: MIA accuracy: 1347/2000 (67.350%) MIA Gain: 7.086% MIA Precision:734/1121 (65.477%) MIA Recall:734/1000 (73.400%) MIA F1: 69.213% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6745 0.5451205430030874 0.6035000000000071 |    AUC Score: 0.745193 |   tpr_at_1_percent_fpr: 0.164 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.265s | Batch: 4.273s | | Loss: 0.6549 | top1:  0.5500 
+(10/20) Data: 0.409s | Batch: 0.416s | | Loss: 0.6363 | top1:  0.6155 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[611 389]
+ [263 737]]
+
+MIA Evaluation: MIA accuracy: 1348/2000 (67.400%) MIA Gain: 7.970% MIA Precision:737/1126 (65.453%) MIA Recall:737/1000 (73.700%) MIA F1: 69.332% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6755 0.49570530265569746 0.5280000000000007 |    AUC Score: 0.740106 |   tpr_at_1_percent_fpr: 0.077 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.326s | Batch: 4.334s | | Loss: 0.5888 | top1:  0.6900 
+(10/20) Data: 0.423s | Batch: 0.430s | | Loss: 0.6178 | top1:  0.6491 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[611 389]
+ [261 739]]
+
+MIA Evaluation: MIA accuracy: 1350/2000 (67.500%) MIA Gain: 6.892% MIA Precision:739/1128 (65.514%) MIA Recall:739/1000 (73.900%) MIA F1: 69.455% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6765 0.5019210717678098 0.5160000000000038 |    AUC Score: 0.745446 |   tpr_at_1_percent_fpr: 0.166 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.129s | Batch: 4.136s | | Loss: 0.6726 | top1:  0.5400 
+(10/20) Data: 0.403s | Batch: 0.411s | | Loss: 0.6191 | top1:  0.6482 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[669 331]
+ [328 672]]
+
+MIA Evaluation: MIA accuracy: 1341/2000 (67.050%) MIA Gain: 7.303% MIA Precision:672/1003 (66.999%) MIA Recall:672/1000 (67.200%) MIA F1: 67.099% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6745 0.5170450464785115 0.5445000000000021 |    AUC Score: 0.742263 |   tpr_at_1_percent_fpr: 0.166 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.258s | Batch: 4.265s | | Loss: 0.6389 | top1:  0.6700 
+(10/20) Data: 0.419s | Batch: 0.426s | | Loss: 0.6253 | top1:  0.6427 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[634 366]
+ [293 707]]
+
+MIA Evaluation: MIA accuracy: 1341/2000 (67.050%) MIA Gain: 8.535% MIA Precision:707/1073 (65.890%) MIA Recall:707/1000 (70.700%) MIA F1: 68.210% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6775 0.48259036314486936 0.48899999999999366 |    AUC Score: 0.7424649999999999 |   tpr_at_1_percent_fpr: 0.149 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 7.283s | Batch: 7.291s | | Loss: 0.6396 | top1:  0.6100 
+(10/20) Data: 0.693s | Batch: 0.700s | | Loss: 0.6208 | top1:  0.6509 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[486 514]
+ [181 819]]
+
+MIA Evaluation: MIA accuracy: 1305/2000 (65.250%) MIA Gain: 8.393% MIA Precision:819/1333 (61.440%) MIA Recall:819/1000 (81.900%) MIA F1: 70.210% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6705 0.5798298367857856 0.5789999999999909 |    AUC Score: 0.736772 |   tpr_at_1_percent_fpr: 0.146 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.398s | Batch: 4.405s | | Loss: 0.6231 | top1:  0.6400 
+(10/20) Data: 0.421s | Batch: 0.428s | | Loss: 0.6170 | top1:  0.6491 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[625 375]
+ [281 719]]
+
+MIA Evaluation: MIA accuracy: 1344/2000 (67.200%) MIA Gain: 7.770% MIA Precision:719/1094 (65.722%) MIA Recall:719/1000 (71.900%) MIA F1: 68.672% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6745 0.48522474694252515 0.5130000000000063 |    AUC Score: 0.7437469999999999 |   tpr_at_1_percent_fpr: 0.152 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.394s | Batch: 4.401s | | Loss: 0.6311 | top1:  0.6200 
+(10/20) Data: 0.439s | Batch: 0.447s | | Loss: 0.6030 | top1:  0.6482 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[550 450]
+ [206 794]]
+
+MIA Evaluation: MIA accuracy: 1344/2000 (67.200%) MIA Gain: 7.481% MIA Precision:794/1244 (63.826%) MIA Recall:794/1000 (79.400%) MIA F1: 70.766% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.679 0.528034776151193 0.5230000000000169 |    AUC Score: 0.7469359999999999 |   tpr_at_1_percent_fpr: 0.161 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.031s | Batch: 4.038s | | Loss: 0.6242 | top1:  0.6400 
+(10/20) Data: 0.385s | Batch: 0.392s | | Loss: 0.6263 | top1:  0.6436 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[406 594]
+ [117 883]]
+
+MIA Evaluation: MIA accuracy: 1289/2000 (64.450%) MIA Gain: 7.636% MIA Precision:883/1477 (59.783%) MIA Recall:883/1000 (88.300%) MIA F1: 71.296% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.675 0.6280213634967935 0.6145000000000167 |    AUC Score: 0.7402355 |   tpr_at_1_percent_fpr: 0.156 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.235s | Batch: 4.244s | | Loss: 0.6574 | top1:  0.5700 
+(10/20) Data: 0.414s | Batch: 0.422s | | Loss: 0.6135 | top1:  0.6436 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[738 262]
+ [399 601]]
+
+MIA Evaluation: MIA accuracy: 1339/2000 (66.950%) MIA Gain: 7.393% MIA Precision:601/863 (69.641%) MIA Recall:601/1000 (60.100%) MIA F1: 64.520% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.673 0.4151545719802342 0.423499999999995 |    AUC Score: 0.742171 |   tpr_at_1_percent_fpr: 0.157 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 3.971s | Batch: 3.979s | | Loss: 0.6817 | top1:  0.6500 
+(10/20) Data: 0.380s | Batch: 0.389s | | Loss: 0.6324 | top1:  0.6355 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[638 362]
+ [294 706]]
+
+MIA Evaluation: MIA accuracy: 1344/2000 (67.200%) MIA Gain: 8.369% MIA Precision:706/1068 (66.105%) MIA Recall:706/1000 (70.600%) MIA F1: 68.279% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6745 0.4765771886706342 0.46099999999999874 |    AUC Score: 0.740982 |   tpr_at_1_percent_fpr: 0.149 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.432s | Batch: 4.440s | | Loss: 0.6830 | top1:  0.5900 
+(10/20) Data: 0.461s | Batch: 0.468s | | Loss: 0.6092 | top1:  0.6509 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[611 389]
+ [265 735]]
+
+MIA Evaluation: MIA accuracy: 1346/2000 (67.300%) MIA Gain: 7.608% MIA Precision:735/1124 (65.391%) MIA Recall:735/1000 (73.500%) MIA F1: 69.209% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.675 0.49122051808238 0.4834999999999996 |    AUC Score: 0.7390970000000001 |   tpr_at_1_percent_fpr: 0.171 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.239s | Batch: 4.248s | | Loss: 0.6358 | top1:  0.6300 
+(10/20) Data: 0.428s | Batch: 0.435s | | Loss: 0.6091 | top1:  0.6418 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[439 561]
+ [138 862]]
+
+MIA Evaluation: MIA accuracy: 1301/2000 (65.050%) MIA Gain: 8.071% MIA Precision:862/1423 (60.576%) MIA Recall:862/1000 (86.200%) MIA F1: 71.151% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6785 0.6032263106405706 0.5914999999999966 |    AUC Score: 0.7401709999999999 |   tpr_at_1_percent_fpr: 0.164 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.391s | Batch: 4.399s | | Loss: 0.6538 | top1:  0.6000 
+(10/20) Data: 0.429s | Batch: 0.436s | | Loss: 0.6316 | top1:  0.6345 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[646 354]
+ [303 697]]
+
+MIA Evaluation: MIA accuracy: 1343/2000 (67.150%) MIA Gain: 7.018% MIA Precision:697/1051 (66.318%) MIA Recall:697/1000 (69.700%) MIA F1: 67.967% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.674 0.49503044742345204 0.532999999999992 |    AUC Score: 0.739632 |   tpr_at_1_percent_fpr: 0.119 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 7.232s | Batch: 7.239s | | Loss: 0.5954 | top1:  0.6600 
+(10/20) Data: 0.680s | Batch: 0.688s | | Loss: 0.6361 | top1:  0.6355 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[538 462]
+ [227 773]]
+
+MIA Evaluation: MIA accuracy: 1311/2000 (65.550%) MIA Gain: 8.065% MIA Precision:773/1235 (62.591%) MIA Recall:773/1000 (77.300%) MIA F1: 69.172% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6645 0.5510226649045992 0.5450000000000059 |    AUC Score: 0.730035 |   tpr_at_1_percent_fpr: 0.157 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.677s | Batch: 4.683s | | Loss: 0.6215 | top1:  0.6300 
+(10/20) Data: 0.442s | Batch: 0.450s | | Loss: 0.6130 | top1:  0.6518 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[772 228]
+ [447 553]]
+
+MIA Evaluation: MIA accuracy: 1325/2000 (66.250%) MIA Gain: 6.096% MIA Precision:553/781 (70.807%) MIA Recall:553/1000 (55.300%) MIA F1: 62.100% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.673 0.4254471217989987 0.44350000000000966 |    AUC Score: 0.740532 |   tpr_at_1_percent_fpr: 0.155 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.317s | Batch: 4.325s | | Loss: 0.5895 | top1:  0.6700 
+(10/20) Data: 0.415s | Batch: 0.423s | | Loss: 0.6081 | top1:  0.6382 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[565 435]
+ [229 771]]
+
+MIA Evaluation: MIA accuracy: 1336/2000 (66.800%) MIA Gain: 8.461% MIA Precision:771/1206 (63.930%) MIA Recall:771/1000 (77.100%) MIA F1: 69.900% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.677 0.5273715042769929 0.5265000000000024 |    AUC Score: 0.739596 |   tpr_at_1_percent_fpr: 0.16 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.544s | Batch: 4.550s | | Loss: 0.5974 | top1:  0.6400 
+(10/20) Data: 0.440s | Batch: 0.447s | | Loss: 0.6089 | top1:  0.6673 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[572 428]
+ [247 753]]
+
+MIA Evaluation: MIA accuracy: 1325/2000 (66.250%) MIA Gain: 5.949% MIA Precision:753/1181 (63.760%) MIA Recall:753/1000 (75.300%) MIA F1: 69.051% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.671 0.5227687999606219 0.5525000000000124 |    AUC Score: 0.733219 |   tpr_at_1_percent_fpr: 0.049 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.341s | Batch: 4.350s | | Loss: 0.6277 | top1:  0.6800 
+(10/20) Data: 0.416s | Batch: 0.424s | | Loss: 0.6286 | top1:  0.6300 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[588 412]
+ [242 758]]
+
+MIA Evaluation: MIA accuracy: 1346/2000 (67.300%) MIA Gain: 7.991% MIA Precision:758/1170 (64.786%) MIA Recall:758/1000 (75.800%) MIA F1: 69.862% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.676 0.5457222491502731 0.5644999999999962 |    AUC Score: 0.7440289999999998 |   tpr_at_1_percent_fpr: 0.149 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.173s | Batch: 4.181s | | Loss: 0.5984 | top1:  0.6900 
+(10/20) Data: 0.399s | Batch: 0.407s | | Loss: 0.6112 | top1:  0.6382 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[546 454]
+ [224 776]]
+
+MIA Evaluation: MIA accuracy: 1322/2000 (66.100%) MIA Gain: 7.612% MIA Precision:776/1230 (63.089%) MIA Recall:776/1000 (77.600%) MIA F1: 69.596% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.673 0.5202568669915172 0.5144999999999966 |    AUC Score: 0.7358335 |   tpr_at_1_percent_fpr: 0.17 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 7.381s | Batch: 7.389s | | Loss: 0.5987 | top1:  0.6800 
+(10/20) Data: 0.706s | Batch: 0.713s | | Loss: 0.6121 | top1:  0.6491 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[811 189]
+ [502 498]]
+
+MIA Evaluation: MIA accuracy: 1309/2000 (65.450%) MIA Gain: 7.168% MIA Precision:498/687 (72.489%) MIA Recall:498/1000 (49.800%) MIA F1: 59.040% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.669 0.3984128219485289 0.4070000000000008 |    AUC Score: 0.734344 |   tpr_at_1_percent_fpr: 0.096 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.317s | Batch: 4.324s | | Loss: 0.6531 | top1:  0.5500 
+(10/20) Data: 0.429s | Batch: 0.436s | | Loss: 0.6115 | top1:  0.6482 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[725 275]
+ [371 629]]
+
+MIA Evaluation: MIA accuracy: 1354/2000 (67.700%) MIA Gain: 6.516% MIA Precision:629/904 (69.580%) MIA Recall:629/1000 (62.900%) MIA F1: 66.071% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6775 0.49980199441313833 0.5025000000000013 |    AUC Score: 0.7426415 |   tpr_at_1_percent_fpr: 0.168 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.386s | Batch: 4.393s | | Loss: 0.6059 | top1:  0.6400 
+(10/20) Data: 0.423s | Batch: 0.430s | | Loss: 0.6184 | top1:  0.6418 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[730 270]
+ [394 606]]
+
+MIA Evaluation: MIA accuracy: 1336/2000 (66.800%) MIA Gain: 7.185% MIA Precision:606/876 (69.178%) MIA Recall:606/1000 (60.600%) MIA F1: 64.606% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.676 0.46062911108136373 0.4675000000000026 |    AUC Score: 0.743974 |   tpr_at_1_percent_fpr: 0.144 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.402s | Batch: 4.410s | | Loss: 0.5940 | top1:  0.7300 
+(10/20) Data: 0.418s | Batch: 0.426s | | Loss: 0.6098 | top1:  0.6564 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[533 467]
+ [215 785]]
+
+MIA Evaluation: MIA accuracy: 1318/2000 (65.900%) MIA Gain: 7.792% MIA Precision:785/1252 (62.700%) MIA Recall:785/1000 (78.500%) MIA F1: 69.716% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6745 0.5345104906558945 0.5239999999999944 |    AUC Score: 0.7369669999999999 |   tpr_at_1_percent_fpr: 0.164 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.196s | Batch: 4.203s | | Loss: 0.6085 | top1:  0.7300 
+(10/20) Data: 0.412s | Batch: 0.420s | | Loss: 0.6132 | top1:  0.6509 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[590 410]
+ [259 741]]
+
+MIA Evaluation: MIA accuracy: 1331/2000 (66.550%) MIA Gain: 7.871% MIA Precision:741/1151 (64.379%) MIA Recall:741/1000 (74.100%) MIA F1: 68.898% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6705 0.5148937790393708 0.4864999999999846 |    AUC Score: 0.7375560000000001 |   tpr_at_1_percent_fpr: 0.169 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 8.725s | Batch: 8.734s | | Loss: 0.6016 | top1:  0.6400 
+(10/20) Data: 0.815s | Batch: 0.824s | | Loss: 0.6137 | top1:  0.6345 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[671 329]
+ [321 679]]
+
+MIA Evaluation: MIA accuracy: 1350/2000 (67.500%) MIA Gain: 7.797% MIA Precision:679/1008 (67.361%) MIA Recall:679/1000 (67.900%) MIA F1: 67.629% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6815 0.5253541601896353 0.5405000000000084 |    AUC Score: 0.74572 |   tpr_at_1_percent_fpr: 0.167 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 3.964s | Batch: 3.973s | | Loss: 0.6003 | top1:  0.6500 
+(10/20) Data: 0.378s | Batch: 0.386s | | Loss: 0.6180 | top1:  0.6400 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[566 434]
+ [244 756]]
+
+MIA Evaluation: MIA accuracy: 1322/2000 (66.100%) MIA Gain: 8.843% MIA Precision:756/1190 (63.529%) MIA Recall:756/1000 (75.600%) MIA F1: 69.041% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6695 0.5241478263437762 0.5055000000000017 |    AUC Score: 0.737508 |   tpr_at_1_percent_fpr: 0.157 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.185s | Batch: 4.192s | | Loss: 0.5911 | top1:  0.6800 
+(10/20) Data: 0.400s | Batch: 0.407s | | Loss: 0.6055 | top1:  0.6618 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[580 420]
+ [242 758]]
+
+MIA Evaluation: MIA accuracy: 1338/2000 (66.900%) MIA Gain: 7.687% MIA Precision:758/1178 (64.346%) MIA Recall:758/1000 (75.800%) MIA F1: 69.605% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6825 0.5589225596189491 0.572499999999999 |    AUC Score: 0.746254 |   tpr_at_1_percent_fpr: 0.169 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.488s | Batch: 4.494s | | Loss: 0.6370 | top1:  0.5700 
+(10/20) Data: 0.426s | Batch: 0.433s | | Loss: 0.6230 | top1:  0.6227 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[945  55]
+ [744 256]]
+
+MIA Evaluation: MIA accuracy: 1201/2000 (60.050%) MIA Gain: 6.015% MIA Precision:256/311 (82.315%) MIA Recall:256/1000 (25.600%) MIA F1: 39.054% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.666 0.30789102849364713 0.32050000000000595 |    AUC Score: 0.728559 |   tpr_at_1_percent_fpr: 0.074 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.186s | Batch: 4.195s | | Loss: 0.6905 | top1:  0.5300 
+(10/20) Data: 0.402s | Batch: 0.410s | | Loss: 0.6229 | top1:  0.6555 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[576 424]
+ [272 728]]
+
+MIA Evaluation: MIA accuracy: 1304/2000 (65.200%) MIA Gain: 8.016% MIA Precision:728/1152 (63.194%) MIA Recall:728/1000 (72.800%) MIA F1: 67.658% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6625 0.5280641266107597 0.4990000000000049 |    AUC Score: 0.730265 |   tpr_at_1_percent_fpr: 0.163 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.104s | Batch: 4.113s | | Loss: 0.5901 | top1:  0.6600 
+(10/20) Data: 0.392s | Batch: 0.400s | | Loss: 0.6310 | top1:  0.6264 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[455 545]
+ [156 844]]
+
+MIA Evaluation: MIA accuracy: 1299/2000 (64.950%) MIA Gain: 7.282% MIA Precision:844/1389 (60.763%) MIA Recall:844/1000 (84.400%) MIA F1: 70.657% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6675 0.5686160995066317 0.5575000000000195 |    AUC Score: 0.734434 |   tpr_at_1_percent_fpr: 0.155 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.060s | Batch: 4.067s | | Loss: 0.5986 | top1:  0.6900 
+(10/20) Data: 0.401s | Batch: 0.408s | | Loss: 0.6204 | top1:  0.6473 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[769 231]
+ [454 546]]
+
+MIA Evaluation: MIA accuracy: 1315/2000 (65.750%) MIA Gain: 6.682% MIA Precision:546/777 (70.270%) MIA Recall:546/1000 (54.600%) MIA F1: 61.452% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.67 0.4225048297047618 0.4470000000000004 |    AUC Score: 0.731301 |   tpr_at_1_percent_fpr: 0.052 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.238s | Batch: 4.245s | | Loss: 0.6259 | top1:  0.6400 
+(10/20) Data: 0.411s | Batch: 0.418s | | Loss: 0.6240 | top1:  0.6400 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[703 297]
+ [356 644]]
+
+MIA Evaluation: MIA accuracy: 1347/2000 (67.350%) MIA Gain: 7.820% MIA Precision:644/941 (68.438%) MIA Recall:644/1000 (64.400%) MIA F1: 66.358% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6775 0.483136267602439 0.48099999999999393 |    AUC Score: 0.7419910000000001 |   tpr_at_1_percent_fpr: 0.149 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 7.420s | Batch: 7.427s | | Loss: 0.6034 | top1:  0.7200 
+(10/20) Data: 0.704s | Batch: 0.711s | | Loss: 0.6145 | top1:  0.6464 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[581 419]
+ [239 761]]
+
+MIA Evaluation: MIA accuracy: 1342/2000 (67.100%) MIA Gain: 7.996% MIA Precision:761/1180 (64.492%) MIA Recall:761/1000 (76.100%) MIA F1: 69.817% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6755 0.587131625950344 0.6035000000000094 |    AUC Score: 0.7463019999999999 |   tpr_at_1_percent_fpr: 0.151 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.140s | Batch: 4.150s | | Loss: 0.6378 | top1:  0.5900 
+(10/20) Data: 0.399s | Batch: 0.407s | | Loss: 0.6206 | top1:  0.6427 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[770 230]
+ [427 573]]
+
+MIA Evaluation: MIA accuracy: 1343/2000 (67.150%) MIA Gain: 6.735% MIA Precision:573/803 (71.357%) MIA Recall:573/1000 (57.300%) MIA F1: 63.561% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6775 0.48368535357714026 0.5080000000000046 |    AUC Score: 0.742904 |   tpr_at_1_percent_fpr: 0.157 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 7.084s | Batch: 7.091s | | Loss: 0.6414 | top1:  0.6700 
+(10/20) Data: 0.662s | Batch: 0.670s | | Loss: 0.6181 | top1:  0.6427 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[657 343]
+ [308 692]]
+
+MIA Evaluation: MIA accuracy: 1349/2000 (67.450%) MIA Gain: 8.858% MIA Precision:692/1035 (66.860%) MIA Recall:692/1000 (69.200%) MIA F1: 68.010% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.678 0.46439722338318756 0.4494999999999992 |    AUC Score: 0.741565 |   tpr_at_1_percent_fpr: 0.143 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.129s | Batch: 4.135s | | Loss: 0.6805 | top1:  0.5700 
+(10/20) Data: 0.393s | Batch: 0.401s | | Loss: 0.6226 | top1:  0.6264 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[641 359]
+ [295 705]]
+
+MIA Evaluation: MIA accuracy: 1346/2000 (67.300%) MIA Gain: 7.961% MIA Precision:705/1064 (66.259%) MIA Recall:705/1000 (70.500%) MIA F1: 68.314% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.68 0.5328791678845891 0.5505000000000011 |    AUC Score: 0.746577 |   tpr_at_1_percent_fpr: 0.171 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.285s | Batch: 4.296s | | Loss: 0.6320 | top1:  0.6000 
+(10/20) Data: 0.418s | Batch: 0.426s | | Loss: 0.6108 | top1:  0.6482 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[481 519]
+ [182 818]]
+
+MIA Evaluation: MIA accuracy: 1299/2000 (64.950%) MIA Gain: 7.048% MIA Precision:818/1337 (61.182%) MIA Recall:818/1000 (81.800%) MIA F1: 70.004% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6745 0.5546077418923481 0.5365000000000133 |    AUC Score: 0.736256 |   tpr_at_1_percent_fpr: 0.159 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.064s | Batch: 4.074s | | Loss: 0.5856 | top1:  0.6400 
+(10/20) Data: 0.398s | Batch: 0.405s | | Loss: 0.6077 | top1:  0.6609 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[601 399]
+ [270 730]]
+
+MIA Evaluation: MIA accuracy: 1331/2000 (66.550%) MIA Gain: 8.044% MIA Precision:730/1129 (64.659%) MIA Recall:730/1000 (73.000%) MIA F1: 68.577% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.677 0.55503682869673 0.5665000000000027 |    AUC Score: 0.7421629999999999 |   tpr_at_1_percent_fpr: 0.154 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.270s | Batch: 4.277s | | Loss: 0.6021 | top1:  0.6200 
+(10/20) Data: 0.406s | Batch: 0.414s | | Loss: 0.6147 | top1:  0.6327 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[691 309]
+ [356 644]]
+
+MIA Evaluation: MIA accuracy: 1335/2000 (66.750%) MIA Gain: 8.040% MIA Precision:644/953 (67.576%) MIA Recall:644/1000 (64.400%) MIA F1: 65.950% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.675 0.44160044997930276 0.43499999999999694 |    AUC Score: 0.73805 |   tpr_at_1_percent_fpr: 0.158 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.472s | Batch: 4.480s | | Loss: 0.5865 | top1:  0.6500 
+(10/20) Data: 0.425s | Batch: 0.433s | | Loss: 0.6228 | top1:  0.6309 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[481 519]
+ [177 823]]
+
+MIA Evaluation: MIA accuracy: 1304/2000 (65.200%) MIA Gain: 8.005% MIA Precision:823/1342 (61.326%) MIA Recall:823/1000 (82.300%) MIA F1: 70.282% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.671 0.5555624158978401 0.5339999999999925 |    AUC Score: 0.7370650000000001 |   tpr_at_1_percent_fpr: 0.162 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.567s | Batch: 4.577s | | Loss: 0.6024 | top1:  0.6400 
+(10/20) Data: 0.444s | Batch: 0.452s | | Loss: 0.6149 | top1:  0.6382 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[745 255]
+ [394 606]]
+
+MIA Evaluation: MIA accuracy: 1351/2000 (67.550%) MIA Gain: 7.587% MIA Precision:606/861 (70.383%) MIA Recall:606/1000 (60.600%) MIA F1: 65.126% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.68 0.48805956369638626 0.5140000000000023 |    AUC Score: 0.7443420000000001 |   tpr_at_1_percent_fpr: 0.171 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.370s | Batch: 4.377s | | Loss: 0.5961 | top1:  0.7200 
+(10/20) Data: 0.427s | Batch: 0.435s | | Loss: 0.6062 | top1:  0.6582 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[638 362]
+ [309 691]]
+
+MIA Evaluation: MIA accuracy: 1329/2000 (66.450%) MIA Gain: 8.419% MIA Precision:691/1053 (65.622%) MIA Recall:691/1000 (69.100%) MIA F1: 67.316% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.672 0.46261644423008114 0.4460000000000018 |    AUC Score: 0.738987 |   tpr_at_1_percent_fpr: 0.168 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 5.890s | Batch: 5.898s | | Loss: 0.6118 | top1:  0.6500 
+(10/20) Data: 0.553s | Batch: 0.561s | | Loss: 0.6182 | top1:  0.6418 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[755 245]
+ [409 591]]
+
+MIA Evaluation: MIA accuracy: 1346/2000 (67.300%) MIA Gain: 7.956% MIA Precision:591/836 (70.694%) MIA Recall:591/1000 (59.100%) MIA F1: 64.379% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.678 0.4928348908126384 0.5035000000000037 |    AUC Score: 0.74536 |   tpr_at_1_percent_fpr: 0.157 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 7.357s | Batch: 7.364s | | Loss: 0.7010 | top1:  0.5800 
+(10/20) Data: 0.699s | Batch: 0.706s | | Loss: 0.6153 | top1:  0.6564 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[654 346]
+ [304 696]]
+
+MIA Evaluation: MIA accuracy: 1350/2000 (67.500%) MIA Gain: 8.092% MIA Precision:696/1042 (66.795%) MIA Recall:696/1000 (69.600%) MIA F1: 68.168% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.68 0.5338225104212795 0.5365000000000042 |    AUC Score: 0.7471819999999999 |   tpr_at_1_percent_fpr: 0.151 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.546s | Batch: 4.554s | | Loss: 0.6158 | top1:  0.6600 
+(10/20) Data: 0.440s | Batch: 0.449s | | Loss: 0.6201 | top1:  0.6373 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[590 410]
+ [244 756]]
+
+MIA Evaluation: MIA accuracy: 1346/2000 (67.300%) MIA Gain: 9.015% MIA Precision:756/1166 (64.837%) MIA Recall:756/1000 (75.600%) MIA F1: 69.806% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6775 0.5148406265377968 0.5034999999999965 |    AUC Score: 0.74295 |   tpr_at_1_percent_fpr: 0.164 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.133s | Batch: 4.140s | | Loss: 0.5811 | top1:  0.6300 
+(10/20) Data: 0.402s | Batch: 0.409s | | Loss: 0.6177 | top1:  0.6355 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[600 400]
+ [267 733]]
+
+MIA Evaluation: MIA accuracy: 1333/2000 (66.650%) MIA Gain: 7.516% MIA Precision:733/1133 (64.695%) MIA Recall:733/1000 (73.300%) MIA F1: 68.729% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.683 0.5469540905356354 0.5669999999999932 |    AUC Score: 0.7464 |   tpr_at_1_percent_fpr: 0.165 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.259s | Batch: 4.270s | | Loss: 0.6023 | top1:  0.6800 
+(10/20) Data: 0.413s | Batch: 0.421s | | Loss: 0.6113 | top1:  0.6400 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[690 310]
+ [369 631]]
+
+MIA Evaluation: MIA accuracy: 1321/2000 (66.050%) MIA Gain: 7.224% MIA Precision:631/941 (67.056%) MIA Recall:631/1000 (63.100%) MIA F1: 65.018% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.669 0.46210316213964964 0.4454999999999941 |    AUC Score: 0.7338899999999999 |   tpr_at_1_percent_fpr: 0.169 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 3.995s | Batch: 4.006s | | Loss: 0.6136 | top1:  0.6000 
+(10/20) Data: 0.388s | Batch: 0.396s | | Loss: 0.6163 | top1:  0.6300 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[797 203]
+ [482 518]]
+
+MIA Evaluation: MIA accuracy: 1315/2000 (65.750%) MIA Gain: 6.843% MIA Precision:518/721 (71.845%) MIA Recall:518/1000 (51.800%) MIA F1: 60.198% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.673 0.43469718828796877 0.4424999999999939 |    AUC Score: 0.7384839999999999 |   tpr_at_1_percent_fpr: 0.103 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.089s | Batch: 4.096s | | Loss: 0.6711 | top1:  0.6500 
+(10/20) Data: 0.403s | Batch: 0.410s | | Loss: 0.6214 | top1:  0.6400 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[616 384]
+ [274 726]]
+
+MIA Evaluation: MIA accuracy: 1342/2000 (67.100%) MIA Gain: 8.080% MIA Precision:726/1110 (65.405%) MIA Recall:726/1000 (72.600%) MIA F1: 68.815% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.675 0.5386758778095311 0.541000000000008 |    AUC Score: 0.743241 |   tpr_at_1_percent_fpr: 0.165 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.511s | Batch: 4.518s | | Loss: 0.6029 | top1:  0.6400 
+(10/20) Data: 0.435s | Batch: 0.443s | | Loss: 0.6103 | top1:  0.6309 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[774 226]
+ [439 561]]
+
+MIA Evaluation: MIA accuracy: 1335/2000 (66.750%) MIA Gain: 7.274% MIA Precision:561/787 (71.283%) MIA Recall:561/1000 (56.100%) MIA F1: 62.787% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.678 0.47255858546495927 0.4790000000000063 |    AUC Score: 0.7433839999999999 |   tpr_at_1_percent_fpr: 0.164 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.234s | Batch: 4.241s | | Loss: 0.6180 | top1:  0.6600 
+(10/20) Data: 0.413s | Batch: 0.420s | | Loss: 0.6071 | top1:  0.6518 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[540 460]
+ [201 799]]
+
+MIA Evaluation: MIA accuracy: 1339/2000 (66.950%) MIA Gain: 8.026% MIA Precision:799/1259 (63.463%) MIA Recall:799/1000 (79.900%) MIA F1: 70.739% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.681 0.5817410966157972 0.5760000000000075 |    AUC Score: 0.7469000000000001 |   tpr_at_1_percent_fpr: 0.163 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 6.837s | Batch: 6.844s | | Loss: 0.5832 | top1:  0.6700 
+(10/20) Data: 3.281s | Batch: 3.288s | | Loss: 0.6160 | top1:  0.6436 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[866 134]
+ [555 445]]
+
+MIA Evaluation: MIA accuracy: 1311/2000 (65.550%) MIA Gain: 6.834% MIA Precision:445/579 (76.857%) MIA Recall:445/1000 (44.500%) MIA F1: 56.365% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.675 0.39887001848221165 0.4030000000000044 |    AUC Score: 0.740866 |   tpr_at_1_percent_fpr: 0.141 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 3.877s | Batch: 3.887s | | Loss: 0.6193 | top1:  0.6200 
+(10/20) Data: 0.392s | Batch: 0.399s | | Loss: 0.6250 | top1:  0.6473 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[709 291]
+ [380 620]]
+
+MIA Evaluation: MIA accuracy: 1329/2000 (66.450%) MIA Gain: 8.342% MIA Precision:620/911 (68.057%) MIA Recall:620/1000 (62.000%) MIA F1: 64.887% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6765 0.43152518123387806 0.4124999999999941 |    AUC Score: 0.7390810000000001 |   tpr_at_1_percent_fpr: 0.164 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 7.202s | Batch: 7.209s | | Loss: 0.6097 | top1:  0.6600 
+(10/20) Data: 0.677s | Batch: 0.684s | | Loss: 0.6019 | top1:  0.6655 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[806 194]
+ [474 526]]
+
+MIA Evaluation: MIA accuracy: 1332/2000 (66.600%) MIA Gain: 6.638% MIA Precision:526/720 (73.056%) MIA Recall:526/1000 (52.600%) MIA F1: 61.163% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.676 0.4495282824039462 0.4535000000000004 |    AUC Score: 0.744249 |   tpr_at_1_percent_fpr: 0.153 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 3.937s | Batch: 3.944s | | Loss: 0.6073 | top1:  0.6800 
+(10/20) Data: 0.391s | Batch: 0.398s | | Loss: 0.6122 | top1:  0.6627 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[536 464]
+ [200 800]]
+
+MIA Evaluation: MIA accuracy: 1336/2000 (66.800%) MIA Gain: 8.358% MIA Precision:800/1264 (63.291%) MIA Recall:800/1000 (80.000%) MIA F1: 70.671% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6815 0.5910457827150825 0.5875000000000004 |    AUC Score: 0.746086 |   tpr_at_1_percent_fpr: 0.153 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 6.699s | Batch: 6.707s | | Loss: 0.6453 | top1:  0.6000 
+(10/20) Data: 0.636s | Batch: 0.644s | | Loss: 0.6257 | top1:  0.6373 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[634 366]
+ [291 709]]
+
+MIA Evaluation: MIA accuracy: 1343/2000 (67.150%) MIA Gain: 8.295% MIA Precision:709/1075 (65.953%) MIA Recall:709/1000 (70.900%) MIA F1: 68.337% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6795 0.5244228174388339 0.5264999999999916 |    AUC Score: 0.7463329999999999 |   tpr_at_1_percent_fpr: 0.153 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 5.055s | Batch: 5.062s | | Loss: 0.6384 | top1:  0.6600 
+(10/20) Data: 0.476s | Batch: 0.483s | | Loss: 0.6070 | top1:  0.6664 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[702 298]
+ [355 645]]
+
+MIA Evaluation: MIA accuracy: 1347/2000 (67.350%) MIA Gain: 7.319% MIA Precision:645/943 (68.399%) MIA Recall:645/1000 (64.500%) MIA F1: 66.392% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.676 0.5013253377080031 0.5235000000000086 |    AUC Score: 0.744024 |   tpr_at_1_percent_fpr: 0.144 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.384s | Batch: 4.394s | | Loss: 0.6274 | top1:  0.6500 
+(10/20) Data: 0.415s | Batch: 0.423s | | Loss: 0.6057 | top1:  0.6655 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[664 336]
+ [314 686]]
+
+MIA Evaluation: MIA accuracy: 1350/2000 (67.500%) MIA Gain: 8.478% MIA Precision:686/1022 (67.123%) MIA Recall:686/1000 (68.600%) MIA F1: 67.854% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.681 0.5103626058697652 0.5109999999999942 |    AUC Score: 0.747459 |   tpr_at_1_percent_fpr: 0.155 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.238s | Batch: 4.246s | | Loss: 0.6137 | top1:  0.6600 
+(10/20) Data: 0.412s | Batch: 0.420s | | Loss: 0.6072 | top1:  0.6618 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[580 420]
+ [236 764]]
+
+MIA Evaluation: MIA accuracy: 1344/2000 (67.200%) MIA Gain: 8.311% MIA Precision:764/1184 (64.527%) MIA Recall:764/1000 (76.400%) MIA F1: 69.963% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.676 0.5250852245092386 0.5134999999999992 |    AUC Score: 0.7455830000000001 |   tpr_at_1_percent_fpr: 0.168 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.244s | Batch: 4.252s | | Loss: 0.6241 | top1:  0.6500 
+(10/20) Data: 0.405s | Batch: 0.412s | | Loss: 0.6080 | top1:  0.6445 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[812 188]
+ [486 514]]
+
+MIA Evaluation: MIA accuracy: 1326/2000 (66.300%) MIA Gain: 7.384% MIA Precision:514/702 (73.219%) MIA Recall:514/1000 (51.400%) MIA F1: 60.400% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6805 0.44607578915357954 0.4555000000000046 |    AUC Score: 0.744957 |   tpr_at_1_percent_fpr: 0.168 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.489s | Batch: 4.497s | | Loss: 0.5907 | top1:  0.7000 
+(10/20) Data: 0.429s | Batch: 0.436s | | Loss: 0.6224 | top1:  0.6400 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[637 363]
+ [305 695]]
+
+MIA Evaluation: MIA accuracy: 1332/2000 (66.600%) MIA Gain: 8.597% MIA Precision:695/1058 (65.690%) MIA Recall:695/1000 (69.500%) MIA F1: 67.541% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6705 0.4872251678705263 0.46050000000000574 |    AUC Score: 0.735326 |   tpr_at_1_percent_fpr: 0.164 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.797s | Batch: 4.807s | | Loss: 0.6082 | top1:  0.6700 
+(10/20) Data: 0.463s | Batch: 0.471s | | Loss: 0.5976 | top1:  0.6655 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[577 423]
+ [227 773]]
+
+MIA Evaluation: MIA accuracy: 1350/2000 (67.500%) MIA Gain: 7.842% MIA Precision:773/1196 (64.632%) MIA Recall:773/1000 (77.300%) MIA F1: 70.401% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.682 0.5542745338976386 0.5395000000000003 |    AUC Score: 0.7469629999999999 |   tpr_at_1_percent_fpr: 0.172 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.361s | Batch: 4.367s | | Loss: 0.6188 | top1:  0.5900 
+(10/20) Data: 0.428s | Batch: 0.435s | | Loss: 0.6083 | top1:  0.6455 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[723 277]
+ [379 621]]
+
+MIA Evaluation: MIA accuracy: 1344/2000 (67.200%) MIA Gain: 8.324% MIA Precision:621/898 (69.154%) MIA Recall:621/1000 (62.100%) MIA F1: 65.437% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.677 0.44391533041000164 0.41949999999999754 |    AUC Score: 0.745403 |   tpr_at_1_percent_fpr: 0.169 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.752s | Batch: 4.758s | | Loss: 0.5983 | top1:  0.6700 
+(10/20) Data: 0.459s | Batch: 0.466s | | Loss: 0.6158 | top1:  0.6536 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[659 341]
+ [311 689]]
+
+MIA Evaluation: MIA accuracy: 1348/2000 (67.400%) MIA Gain: 7.709% MIA Precision:689/1030 (66.893%) MIA Recall:689/1000 (68.900%) MIA F1: 67.882% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.683 0.5309330616295327 0.5334999999999986 |    AUC Score: 0.7482019999999999 |   tpr_at_1_percent_fpr: 0.169 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.566s | Batch: 4.573s | | Loss: 0.6179 | top1:  0.6500 
+(10/20) Data: 0.454s | Batch: 0.462s | | Loss: 0.6179 | top1:  0.6300 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[669 331]
+ [328 672]]
+
+MIA Evaluation: MIA accuracy: 1341/2000 (67.050%) MIA Gain: 8.912% MIA Precision:672/1003 (66.999%) MIA Recall:672/1000 (67.200%) MIA F1: 67.099% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.674 0.4825093472003951 0.4650000000000017 |    AUC Score: 0.7412620000000001 |   tpr_at_1_percent_fpr: 0.149 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.226s | Batch: 4.233s | | Loss: 0.6636 | top1:  0.5600 
+(10/20) Data: 0.400s | Batch: 0.408s | | Loss: 0.6164 | top1:  0.6373 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[836 164]
+ [524 476]]
+
+MIA Evaluation: MIA accuracy: 1312/2000 (65.600%) MIA Gain: 6.408% MIA Precision:476/640 (74.375%) MIA Recall:476/1000 (47.600%) MIA F1: 58.049% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6735 0.407998736202722 0.40000000000000674 |    AUC Score: 0.737021 |   tpr_at_1_percent_fpr: 0.111 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 6.950s | Batch: 6.958s | | Loss: 0.6395 | top1:  0.5900 
+(10/20) Data: 0.658s | Batch: 0.666s | | Loss: 0.6261 | top1:  0.6309 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[487 513]
+ [179 821]]
+
+MIA Evaluation: MIA accuracy: 1308/2000 (65.400%) MIA Gain: 8.132% MIA Precision:821/1334 (61.544%) MIA Recall:821/1000 (82.100%) MIA F1: 70.351% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.678 0.6114159026145911 0.6129999999999971 |    AUC Score: 0.744461 |   tpr_at_1_percent_fpr: 0.164 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.570s | Batch: 4.576s | | Loss: 0.6335 | top1:  0.6700 
+(10/20) Data: 0.433s | Batch: 0.441s | | Loss: 0.6159 | top1:  0.6464 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[772 228]
+ [448 552]]
+
+MIA Evaluation: MIA accuracy: 1324/2000 (66.200%) MIA Gain: 7.772% MIA Precision:552/780 (70.769%) MIA Recall:552/1000 (55.200%) MIA F1: 62.022% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6755 0.3941477102637301 0.39650000000000124 |    AUC Score: 0.7429619999999999 |   tpr_at_1_percent_fpr: 0.155 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 3.985s | Batch: 3.993s | | Loss: 0.6005 | top1:  0.6700 
+(10/20) Data: 0.409s | Batch: 0.417s | | Loss: 0.6197 | top1:  0.6382 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[531 469]
+ [217 783]]
+
+MIA Evaluation: MIA accuracy: 1314/2000 (65.700%) MIA Gain: 8.261% MIA Precision:783/1252 (62.540%) MIA Recall:783/1000 (78.300%) MIA F1: 69.538% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6755 0.539615735679863 0.5344999999999978 |    AUC Score: 0.737265 |   tpr_at_1_percent_fpr: 0.162 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.088s | Batch: 4.096s | | Loss: 0.6652 | top1:  0.6300 
+(10/20) Data: 0.409s | Batch: 0.416s | | Loss: 0.6121 | top1:  0.6427 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[684 316]
+ [333 667]]
+
+MIA Evaluation: MIA accuracy: 1351/2000 (67.550%) MIA Gain: 8.106% MIA Precision:667/983 (67.854%) MIA Recall:667/1000 (66.700%) MIA F1: 67.272% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6815 0.5259273061156274 0.5350000000000001 |    AUC Score: 0.7472650000000001 |   tpr_at_1_percent_fpr: 0.163 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.169s | Batch: 4.176s | | Loss: 0.5841 | top1:  0.6800 
+(10/20) Data: 0.418s | Batch: 0.425s | | Loss: 0.6113 | top1:  0.6427 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[568 432]
+ [232 768]]
+
+MIA Evaluation: MIA accuracy: 1336/2000 (66.800%) MIA Gain: 8.384% MIA Precision:768/1200 (64.000%) MIA Recall:768/1000 (76.800%) MIA F1: 69.818% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6775 0.5262197999656175 0.507499999999997 |    AUC Score: 0.738275 |   tpr_at_1_percent_fpr: 0.166 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 7.213s | Batch: 7.228s | | Loss: 0.5755 | top1:  0.7200 
+(10/20) Data: 0.684s | Batch: 0.692s | | Loss: 0.6142 | top1:  0.6409 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[794 206]
+ [491 509]]
+
+MIA Evaluation: MIA accuracy: 1303/2000 (65.150%) MIA Gain: 6.051% MIA Precision:509/715 (71.189%) MIA Recall:509/1000 (50.900%) MIA F1: 59.359% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6755 0.4410026870966017 0.45900000000000835 |    AUC Score: 0.737324 |   tpr_at_1_percent_fpr: 0.107 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+(0/20) Data: 4.712s | Batch: 4.719s | | Loss: 0.6126 | top1:  0.6200 
+(10/20) Data: 0.445s | Batch: 0.452s | | Loss: 0.6129 | top1:  0.6564 
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[629 371]
+ [279 721]]
+
+MIA Evaluation: MIA accuracy: 1350/2000 (67.500%) MIA Gain: 8.380% MIA Precision:721/1092 (66.026%) MIA Recall:721/1000 (72.100%) MIA F1: 68.929% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6785 0.48538112133741845 0.47750000000000575 |    AUC Score: 0.742748 |   tpr_at_1_percent_fpr: 0.167 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[626 374]
+ [279 721]]
+
+MIA Test evaluation: MIA accuracy: 1347/2000 (67.350%) MIA Gain: 8.323% MIA Precision:721/1095 (65.845%) MIA Recall:721/1000 (72.100%) MIA F1: 68.831% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.6775 0.48538112133741845 0.47750000000000575 |    AUC Score: 0.741032 |   tpr_at_1_percent_fpr: 0.165 
+
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+[[627 373]
+ [279 721]]
+
+MIA Test evaluation: MIA accuracy: 1348/2000 (67.400%) MIA Gain: 8.370% MIA Precision:721/1094 (65.905%) MIA Recall:721/1000 (72.100%) MIA F1: 68.863% 
+
+
+ |   best_accuracy, best_threshold, th% : 0.678 0.48538112133741845 0.47750000000000575 |    AUC Score: 0.7428030000000001 |   tpr_at_1_percent_fpr: 0.167 
+
+finish
+command/sh_train_0.sh: line 12: on/bin/python: No such file or directory
